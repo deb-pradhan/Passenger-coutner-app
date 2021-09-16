@@ -1,15 +1,14 @@
 var count = 0;
-const lastCount=[];
-// let countEl = ;
-// console.log(countEl)
+var prevCount;
 
 function increment() {
   count++;
   document.getElementById("current-count").innerText = count;
-  lastCount[count-1] = count;
-  
 }
 
 function save() {
-    document.getElementById("saved-count").innerText = lastCount[lastCount.length-1];
+  prevCount = " - " + count;
+  document.getElementById("saved-count").innerText += prevCount;
+  document.getElementById("current-count").innerText = 0;
+  count = 0;
 }
