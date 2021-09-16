@@ -1,1 +1,3 @@
-# Passenger counter app
+# Passenger counter app 🧑🏻‍🤝‍🧑🏿
+ 
+## What I learned:

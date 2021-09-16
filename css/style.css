@@ -1,0 +1,41 @@
+/* colour schemes:
+ #051622 #1BA098 #DEB992 */
+
+body {
+  margin: 0;
+  background: #deb992;
+}
+
+/*  the body also has its own margin. so have to set it to 0 if you dont want any space */
+.header {
+  background: #051622;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+}
+h1 {
+  color: #deb992;
+  font-size: 72px;
+}
+
+h2 {
+  color: #051622;
+  font-size: 72px;
+  text-align: center;
+}
+p {
+  color: #1ba098;
+  font-size: 36px;
+}
+button {
+  background: #051622;
+  color: #1ba098;
+  padding: 15px;
+  font-size: 26px;
+  text-align: center;
+  border-radius: 10px;
+}
+.text-center {
+  text-align: center;
+}
+
