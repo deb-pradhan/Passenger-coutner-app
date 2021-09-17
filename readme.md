@@ -1,5 +1,5 @@
 # Passenger counter app 🧑🏻‍🤝‍🧑🏿
-Small program to count the number of passengers.
+Small program I made for learning javascript basics. The app counts the number of passengers.
 
  Live preview here: 
 
